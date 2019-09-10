@@ -1,10 +1,14 @@
 <template>
+  <div id="papa">
+    <div id="alert"></div>
     <div class="color">
         {{message}}
     </div>
+  </div>
 </template>
 
 <script>
+alert('ハローワールド');
 export default {
   data: () => {
     return { message: 'HelloWorld' }
