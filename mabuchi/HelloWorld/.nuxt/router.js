@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
+const _ae899978 = () => interopDefault(import('..\\pages\\dentaku.vue' /* webpackChunkName: "pages_dentaku" */))
 const _1fdb70fa = () => interopDefault(import('..\\pages\\inspire.vue' /* webpackChunkName: "pages_inspire" */))
 const _31b6ecf2 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages_index" */))
 
@@ -16,6 +17,10 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
+      path: "/dentaku",
+      component: _ae899978,
+      name: "dentaku"
+    }, {
       path: "/inspire",
       component: _1fdb70fa,
       name: "inspire"
