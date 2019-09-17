@@ -15,13 +15,19 @@
         </tr>
         <tr>
           <td align="center">
-            <input type="button" value=" ７ " v-on:click="myValue(7)" />
+            <v-btn outline round class="red color-text darken-1">
+              <input type="button" value=" ７ " v-on:click="myValue(7)" />
+            </v-btn>
           </td>
           <td align="center">
-            <input type="button" value=" ８ " v-on:click="myValue(8)" />
+            <v-btn outline round class="green green-text darken-2">
+              <input type="button" value=" ８ " v-on:click="myValue(8)" />
+            </v-btn>
           </td>
           <td align="center">
-            <input type="button" value=" ９ " v-on:click="myValue(9)" />
+            <v-btn outline round class="red color-text darken-1">
+              <input type="button" value=" ９ " v-on:click="myValue(9)" />
+            </v-btn>
           </td>
           <td align="center">
             <input type="button" value="÷" v-on:click="myCalculate('/')" />
@@ -122,6 +128,8 @@ export default {
 </script>
 
 <style>
+
+
 h3 {
   color: red;
   margin: 60px 0 0 0;
